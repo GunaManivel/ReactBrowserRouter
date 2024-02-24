@@ -1,0 +1,41 @@
+/* Navigation.css */
+
+/* Style for the navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Style for the toggler button icon */
+.navbar-toggler-icon {
+  background-color:honeydew; /* Example color */
+}
+
+/* Style for the collapsible content */
+.navbar-collapse {
+  justify-content: flex-end; /* Align nav links to the right */
+}
+
+/* Style for the nav links */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-right: 15px; /* Add space between nav links */
+}
+
+/* Media query for responsive navbar */
+@media (max-width: 768px) {
+  /* Example: Adjust styles for smaller screens */
+  .navbar-collapse {
+    justify-content: flex-start; /* Align nav links to the left */
+  }
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #ffee10;
+        box-shadow: 0 0 5px #ffee10;
+        text-shadow: 0 0 5px #ffee10;
+}
+.navbar-nav .nav-link:hover::after{
+    color: #102cff;
+    text-shadow: 0 0 5px #d5d5cf;
+}
